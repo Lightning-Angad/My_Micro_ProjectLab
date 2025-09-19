@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Font Changer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      width: 220px;
+    }
+    button {
+      background-color: #efd009;
+      color: white;
+      border: none;
+      padding: 10px;
+      margin-top: 10px;
+      width: 100%;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #revertFont {
+      background-color: #1d76eb;
+    }
+    #revertFont:hover {
+      background-color: #42d32f;
+    }
+  </style>
+</head>
+<body>
+  <h3>Font Changer</h3>
+  <button id="changeFont">Change Font</button>
+  <button id="revertFont">Revert Font</button>
+  <script src="popup.js"></script>
+</body>
+</html>
