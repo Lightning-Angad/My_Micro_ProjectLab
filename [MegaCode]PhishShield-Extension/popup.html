@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PhishShield AI™</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>PhishShield AI™</h2>
+    <p id="urlDisplay">Scanning current URL...</p>
+    <div id="resultBox">
+      <span id="manualResult">Manual Scan: ⏳</span><br>
+      <button id="aiScanBtn">Run AI Scan</button>
+      <span id="aiResult">AI Scan: ⏳</span>
+    </div>
+    <div class="inputBox">
+  <label for="userUrl">Enter URL to Scan:</label>
+  <input type="text" id="userUrl" placeholder="https://example.com" />
+  <button id="submitUrlBtn">Submit URL</button>
+</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
